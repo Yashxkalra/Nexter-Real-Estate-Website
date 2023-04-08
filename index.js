@@ -1388,7 +1388,7 @@
             r = i.env("editor");
           n ? r && t.remove() : (t.length && t.remove(), r || a.append(e));
         }
-        return ();
+        return;
       })
     );
   },
