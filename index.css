@@ -1,4 +1,4 @@
-/* Generated on: Sat Apr 08 2023 14:02:17 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Sat Apr 08 2023 14:18:11 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -2264,7 +2264,7 @@ p {
 .home-name-wrapper {
   display: flex;
   width: 80%;
-  padding: 1vw 0.78125rem;
+  padding: 0.7em 1em 0.5em;
   justify-content: center;
   align-items: center;
   background-color: #101d2c;
@@ -3048,12 +3048,15 @@ p {
   .image-2 {
     width: auto;
     max-width: 80%;
+    margin: 4%;
   }
 
   .image-3 {
     display: block;
-    max-width: 90%;
+    max-width: 80%;
     min-width: auto;
+    margin-bottom: -50%;
+    margin-left: 0%;
   }
 
   .section__about-us {
@@ -3534,22 +3537,22 @@ p {
     grid-column-end: 7;
     -ms-grid-row: 1;
     grid-row-start: 1;
-    -ms-grid-row-span: 4;
-    grid-row-end: 5;
+    -ms-grid-row-span: 3;
+    grid-row-end: 4;
   }
 
   #w-node-cdb454e8-5df0-32ae-c962-87d426e5558e-22cc780d {
-    -ms-grid-column-span: 3;
-    grid-column-end: 6;
+    -ms-grid-column-span: 4;
+    grid-column-end: 7;
     -ms-grid-column: 3;
     grid-column-start: 3;
-    -ms-grid-row-span: 1;
-    grid-row-end: 3;
+    -ms-grid-row-span: 2;
+    grid-row-end: 4;
     -ms-grid-row: 2;
     grid-row-start: 2;
     -ms-grid-row-align: center;
     align-self: center;
-    -ms-grid-column-align: center;
-    justify-self: center;
+    -ms-grid-column-align: end;
+    justify-self: end;
   }
 }
